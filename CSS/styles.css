@@ -1,0 +1,282 @@
+sideListBody {
+    background-color: green;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 15rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.chat_input {
+  height: 18px;
+}
+
+.chat_input img {
+  display: inline-block;
+  margin: 7px 2px;
+}
+img.avatar.middle.right {
+    height: 1rem;
+}
+img.avatar.middle.left {
+    height: 1rem;
+}
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.user,
+.bot {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 11px;
+  padding: 3px;
+  font-size: 15px;
+  display: block;
+  margin: 4px;
+  vertical-align: middle;
+  overflow-x: hidden;
+  max-width: 97.5%;
+}
+
+.user p,
+.bot p {
+  padding: 6px;
+  margin: 0;
+  display: inline-block;
+  vertical-align: text-bottom;
+  max-width: 89.5%;
+  word-wrap: break-word;
+}
+
+.user p {
+  padding-right: 0;
+}
+
+.user {
+  margin: 4px;
+  float: right;
+  display: inline-block;
+  background: #ceedc7;
+}
+
+.bot {
+  float: left;
+  display: inline-block;
+  background-color: #7aba7a;
+}
+
+.avatar {
+  width: 18px;
+  height: 18px;
+  margin: 6px;
+  display: inline-block;
+}
+
+.chat_block {
+  display: inline-block;
+  clear: both;
+}
+
+.full {
+  width: 100%;
+  clear: both;
+}
+
+.full::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.blurb {
+  color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  border-radius: 9px;
+  margin: 16px auto;
+  padding: 16px;
+  max-width: 360px;
+  padding: 5px;
+}
+
+.bouncer {
+  width: 2px;
+  height: 2px;
+  display: inline-block;
+  margin: 12px 1px;
+  position: relative;
+  background-color: #000;
+}
+
+.one {
+  animation-duration: .5s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.two {
+  animation-duration: .5s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: .1s;
+}
+
+.three {
+  animation-duration: .5s;
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: .2s;
+}
+
+@keyframes bounce {
+  from {
+    bottom: -6px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+input#chat-inner {
+    width: 17.7rem;
+}
+.sapUiHLayoutChildWrapper {
+    white-space: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+span#__popover0-popover-title-inner {
+    color: white;
+}
+div#__popover0-popover-intHeader {
+    background-color: cadetblue;
+}
+.history{
+  display: block;
+  overflow: hidden;
+  overflow-y: auto;
+  /*height: 360px;*/
+}
+
+.QR {
+  background-color: #FFFFFF;
+  color: #01064A;
+  border: 2px solid #8CABFF;
+  padding: 2px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  width:50px;
+  vertical-align: middle;
+}
+
+.middle {
+  vertical-align: middle;
+  width:"20%";
+}
+.rightLabel {
+  vertical-align: right !important;
+  text-align: right !important;
+}
+.input:focus {
+  outline: none;
+}
+.window {
+  display: block;
+  overflow: scroll;
+  margin: 0 auto;
+  padding: 9px;
+  max-width: 305px;
+  border-radius: 9px;
+  height: 280px;
+  border: 1px solid #dcdcdc;
+}
+input#__input0-inner {
+    width: 15rem;
+    height:"20%";
+}
+span#oLabel1 {
+    width: 18rem;
+}
+.server_section{
+	width:70% !important;
+}
+.server_section2{
+	width:30% !important;
+}
+
+h5#__title0 {
+    height: 0rem;
+}
+h5#__title1 {
+    height: 0rem;
+}
+h5#__title3{
+    height: 0rem;
+}
+h5#__title4{
+    height: 0rem;
+}
+h5#__title5{
+    height: 0rem;
+}
+h5#__title6{
+    height: 0rem;
+}
+h5#__title7{
+    height: 0rem;
+}
+h5#__title8{
+    height: 0rem;
+}
+h5#__title9{
+    height: 0rem;
+}
+h5#__title10{
+    height: 0rem;
+}
+h5#__title11{
+    height: 0rem;
+}
+h5#__title12{
+    height: 0rem;
+}
+h5#__title13{
+    height: 0rem;
+}
+h5#__title16{
+    height: 0rem;
+}
+
+h5#__title18{
+    height: 0rem;
+}
+
+.formTitle{
+	height: 0rem;
+}
+
+.botInput>div>input{
+	width: 500px;
+}
